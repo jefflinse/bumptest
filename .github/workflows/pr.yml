@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: jefflinse/pr-semver-bump@208c4f26eb8aff750cff2abaf0af46225193b7bc
+      - uses: jefflinse/pr-semver-bump@4272fb6480918c4a94d96789ddcff098773e0153
         name: Validate PR metadata
         with:
           mode: validate
