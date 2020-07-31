@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: jefflinse/pr-semver-bump@0f398282df73c09e7db831e5251c025beb0813d8
+      - uses: jefflinse/pr-semver-bump@7e1db7b3d4418ad901f2f4a00ed3a7a4092144e1
         name: Bump and Tag Version
         with:
           mode: bump
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          require-release-notes: false
+          require-release-notes: true
           with-v: true
