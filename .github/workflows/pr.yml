@@ -16,5 +16,5 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           require-release-notes: true
           release-notes-prefix: '^### RELEASE NOTES\s*$'
-          release-notes-suffix: '^{1,3}#[^#]'
+          release-notes-suffix: '^#{1,3}[^#]'
           with-v: true
