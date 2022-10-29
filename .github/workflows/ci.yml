@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: jefflinse/pr-semver-bump@c64d22a407a36cde7e33afd6b2339fec8ecec831
+      - uses: jefflinse/pr-semver-bump@v1.4.0
         name: Bump and Tag Version
         with:
           mode: bump
